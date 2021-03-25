@@ -6,3 +6,4 @@ module "jenkinsinstall" {
   seckey= var.aws_sec ### pass your Sec key ex: "45tghuytdx"
   region = var.aws_region ### pass value of region ex : "us-east-1"
   instance_list= var.inst_list ### give the list of the instances  ex: "["calss","ubuntu"]"
+  }
